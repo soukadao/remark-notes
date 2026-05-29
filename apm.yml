@@ -1,0 +1,16 @@
+name: my-project
+version: 1.0.0
+description: My Project
+author: soukadao
+dependencies:
+  # format: https://microsoft.github.io/apm/consumer/manage-dependencies/#reference-formats
+  apm:
+  - git: soukadao/gitcv#f6616d4958a623ac9ede1f592688b657f340bb49
+    skills:
+    - git-branch-strategy
+    - git-typed-commit
+  mcp: []
+includes: auto
+scripts: {}
+targets:
+  - codex
